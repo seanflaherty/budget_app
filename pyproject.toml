@@ -5,3 +5,10 @@ description = "Budget tracking app."
 readme = "README.md"
 requires-python = ">=3.14"
 dependencies = []
+
+[tool.pylint.main]
+init-hook = "import sys; sys.path.append('.')"
+source-roots = ["src"]
+
+[tool.pytest.ini_options]
+pythonpaths = ["."]
