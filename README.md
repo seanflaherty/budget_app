@@ -98,7 +98,7 @@ pytest
 ## 🛠️ Built With
 
 * **Language:** [Python 3](https://www.python.org/)
-* **Testing:** Standard Library `unittest`
+* **Testing:** [pytest](https://docs.pytest.org/)
 * **Platform:** [freeCodeCamp](https://www.freecodecamp.org/) Python Certification
 * **Focus:** Object Oriented Programming with Python and Pytest.
 
